@@ -10,4 +10,9 @@ package com.mycompany.bibprojectone;
  */
 public class Login {
     
+    //This method checks the username if it contains the underscore and the length does not exceed 5
+    public boolean CheckUsername(String username){
+        return username.contains("_") && username.length()<=5;
+    }
+    
 }
